@@ -23,12 +23,6 @@ plugins {
     id "com.google.dagger.hilt.android" version "$hilt_version" apply false
 }
 
-android { 
-  lintOptions { 
-    abortOnError false 
-  }
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
